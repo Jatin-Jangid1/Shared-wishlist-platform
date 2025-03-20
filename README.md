@@ -38,3 +38,6 @@ This project includes a Solidity-based smart contract that enables users to crea
 - **ItemRemoved**: Triggered when an item is removed.
 
 This smart contract provides a decentralized way to manage wishlists with user-controlled access and transparent record-keeping.
+## Contract address :
+0xeC4Abe20F88F225dA12997Ca4290D2A82be71905
+![image](https://github.com/user-attachments/assets/634371d6-451d-4e80-9189-7a4cef5cb28d)
