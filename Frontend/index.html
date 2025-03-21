@@ -1,0 +1,32 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shared Wishlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.5/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎁 Shared Wishlist</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <p id="userAddress"></p>
+
+        <div class="wishlist-section">
+            <h2>Add Wishlist Item</h2>
+            <input type="text" id="itemName" placeholder="Item Name">
+            <textarea id="itemDescription" placeholder="Item Description"></textarea>
+            <label>
+                <input type="checkbox" id="isPublic"> Public Item
+            </label>
+            <button id="addItem">Add Item</button>
+        </div>
+
+        <h2>Your Wishlist</h2>
+        <div id="wishlist"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
